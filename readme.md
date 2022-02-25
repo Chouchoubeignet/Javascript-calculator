@@ -1,5 +1,4 @@
 # A simple calculator
----
 
 
 A simple calculator using HTML, CSS and Javascript
@@ -10,7 +9,7 @@ A simple calculator using HTML, CSS and Javascript
 
 
 ## Objectives
----
+
 
 This is my first project in Javascript. The calculator can :
 
@@ -20,7 +19,7 @@ This is my first project in Javascript. The calculator can :
 - can indicate if there is en error with emoji.
 
 ## Technologies used :
----
+
 
 - HTML
 - CSS
