@@ -11,9 +11,9 @@ A simple calculator using HTML, CSS and Javascript
 
 ---
 
-This is my first project in Javascript. The caclculator can :
+This is my first project in Javascript. The calculator can :
 
-- add, subastract, multiply ans divide numbers.
+- add, substract, multiply ans divide numbers.
 - use % or modify the sign of the current operation (+ or -).
 - clear all caracters or the last one.
 - can indicate if there is en error with emoji.
