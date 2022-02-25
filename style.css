@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: rgb(73, 73, 73);
+  height: 100%;
+}
+
+.app {
+  width: 300px;
+  height: auto;
+  margin: 60px auto 0;
+  background-color: rgb(211, 200, 200);
+  padding: 3px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 2px 2px rgb(75, 74, 74);
+}
+
+.display {
+  position: relative;
+  height: 120px;
+  cursor: default;
+  background-color: white;
+}
+
+#operation,
+#result {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 5%;
+  text-align: right;
+  color: rgb(66, 66, 66);
+  font-size: 2rem;
+}
+
+#operation {
+  height: 50%;
+  border-radius: 4px;
+  transition: 0.2s;
+  height: 45%;
+}
+
+#result {
+  height: 50%;
+  height: 55%;
+  font-size: 2.3rem;
+}
+
+.base {
+  margin-top: 2px;
+  height: 300px;
+  cursor: pointer;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.row,
+.row-1 {
+  position: relative;
+  height: 20%;
+}
+
+.key {
+  color: black;
+  font-size: large;
+}
+
+.row-1 button,
+.operator,
+.equal {
+  background: rgb(231, 224, 224);
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+button {
+  width: 25%;
+  height: 59px;
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: rgb(189, 177, 177);
+  border: 1px solid rgb(156, 156, 156);
+}
+
+#operation.long {
+  font-size: 1.8rem;
+}
+
+#operation.long1 {
+  font-size: 1.6rem;
+}
+
+#operation.long2 {
+  font-size: 1.4rem;
+}
+#operation.long3 {
+  font-size: 1.2rem;
+}
+#operation.long4 {
+  font-size: 0.9rem;
+}
+
+#operation.tooLong {
+  font-size: 0.9rem;
+  color: red;
+}
+
+.clear.error {
+  -webkit-animation: pleaseClear 1s infinite alternate;
+  animation: pleaseClear 1s infinite alternate;
+}
+
+#operation.error {
+  color: red;
+}
+
+@-webkit-keyframes pleaseClear {
+  from {
+    background: rgb(231, 224, 224);
+    border: 1px solid lightgrey;
+  }
+  to {
+    background: rgb(233, 136, 136);
+    border: 1px solid rgb(156, 156, 156);
+  }
+}
+
+@keyframes pleaseClear {
+  from {
+    background: rgb(233, 136, 136);
+    border: 1px solid rgb(156, 156, 156);
+  }
+  to {
+    background: rgb(231, 224, 224);
+    border: 1px solid lightgrey;
+  }
+}
+
+a,
+a:visited {
+  position: absolute;
+  left: 50%;
+  width: auto;
+  height: auto;
+  margin: 10px 0 0;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+a:hover {
+  /* background-color: white; */
+  /* color: black; */
+  font-size: 1.1rem;
+}
