@@ -3,7 +3,8 @@
 
 
 A simple calculator using HTML, CSS and Javascript
-![Img](Img.png)
+![Img](https://user-images.githubusercontent.com/100290322/155769987-db513574-51cd-4ee2-b0e4-af1373ffd875.png)
+
 
 
 
