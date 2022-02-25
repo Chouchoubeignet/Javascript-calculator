@@ -1,10 +1,11 @@
 # A simple calculator
 ---
-  
+
 
 A simple calculator using HTML, CSS and Javascript
+![Img](Img.png)
 
-![Img](../Asset/Javascript%20calculator.png)
+
 
 
 ## Objectives
