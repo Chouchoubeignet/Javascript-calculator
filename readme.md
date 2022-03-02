@@ -16,7 +16,7 @@ This is my first project in Javascript. The calculator can :
 - add, substract, multiply ans divide numbers.
 - use % or modify the sign of the current operation (+ or -).
 - clear all caracters or the last one.
-- can indicate if there is en error with emoji.
+- can indicate if there is an error with emoji.
 
 ## Technologies used :
 
