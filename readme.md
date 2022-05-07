@@ -1,25 +1,25 @@
 # A simple calculator
-
 ---
 
-A simple calculator using HTML, CSS and Javascript
-![Img](Javascriptcalculator.png)
 
----
+Une simple calculatrice codée en HTML, CSS et Javascript.
+
+![Img](Img.png)
+
+
+
 
 ## Objectives
-
 ---
 
-This is my first project in Javascript. The caclculator can :
+C'est mon premier projet Javascript et j'en suis fier ! La calculatrice peut :
 
-- add, subastract, multiply ans divide numbers.
-- use % or modify the sign of the current operation (+ or -).
-- clear all caracters or the last one.
-- can indicate if there is en error with emoji.
+- effectuer les opérations de base (addition, soustraction, multiplication et division),
+- utiliser l'opérateur % ou modifier le signe de l'opération en cours (+ ou -),
+- rafraichir l'écran de résultat ou supprimer le dernier chiffre,
+- indiquer si l'utilisateur a fait une erreur de saisi avec un emoji tout mignon !
 
 ## Technologies used :
-
 ---
 
 - HTML
